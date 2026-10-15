@@ -12,7 +12,7 @@ Vercel account. Details are in
 [Requirements](#requirements) and [What it costs to run](#what-it-costs-to-run).
 
 1. Clone it anywhere on your computer:
-   `git clone https://github.com/automatable-skool/upwork-blueprint-day1.git`
+   `git clone https://github.com/skool-automatable-day-7-48823/upwork-blueprint.git`
 2. Open a terminal in the folder and run `./setup.sh` once. It creates your own
    files and writes `.env` with your unique Vercel project
 3. Follow [Connect Upwork](#connect-upwork), then run `/about-me`. It asks about
@@ -41,19 +41,19 @@ Claude Code session. `RESEARCH.md` is background reading; no command uses it.
 | 2 | `/profile` | Measures your live profile, then writes the version that fixes it |
 | 3 | `/find-jobs` | Ten leads a day worth applying to, scored against what you sell, straight into your dashboard |
 | 4 | `/proposal` | A one-page pitch site plus the cover letter and bid you submit with your Loom |
-| 5 | `/dashboard` | Unlocks day 7. Your day: pulls what changed on Upwork, opens your dashboard with every lead and its next step, and drafts the messages that are due. Type it again to refresh |
-| 6 | `/sales-call-prep` | Unlocks day 7. Before a sales call: one page to glance at during it, the seven stops in order with what to say at each, and a few facts about the business and the person |
-| 7 | `/sales-call-proposal` | Unlocks day 7. Turns your sales call into the proposal you send, and says whether it is ready to start a project on |
+| 5 | `/dashboard` | Your day: pulls what changed on Upwork, opens your dashboard with every lead and its next step, and drafts the messages that are due. Type it again to refresh |
+| 6 | `/sales-call-prep` | Before a sales call: one page to glance at during it, the seven stops in order with what to say at each, and a few facts about the business and the person |
+| 7 | `/sales-call-proposal` | Turns your sales call into the proposal you send, and says whether it is ready to start a project on |
 | 8 | `/onboarding` | Unlocks month 2. Turns a started contract into a checklist page you run the kickoff call from, the message that books the call, and the client's own folder |
-| Weekly | `/analytics` | Unlocks day 7. Finds the one step losing you deals, gives you the fix, and split tests it until a winner is clear |
+| Weekly | `/analytics` | Finds the one step losing you deals, gives you the fix, and split tests it until a winner is clear |
 | On demand | `/loom-review` | Reviews the Loom you sent with one application and gives you the one change that helps most |
-| On demand | `/call-review` | Unlocks day 7. Reviews a finished sales call from its transcript and saves the feedback |
+| On demand | `/call-review` | Reviews a finished sales call from its transcript and saves the feedback |
 
 /about-me also works before connecting or creating a public Upwork profile. Run it
 first: every later command writes from it, and `/find-jobs` on an empty `me.md`
 has nothing to score leads against.
 
-One command sits beside the path, and it unlocks day 7: `/message <client name>` finds that client's
+One command sits beside the path: `/message <client name>` finds that client's
 conversation, reads it from the first message, and drafts your reply. Use it for a
 single client at any time, including one who never came through `/find-jobs`.
 
