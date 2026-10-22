@@ -51,10 +51,9 @@ Ask only for reconnection or evidence the tools cannot supply. Code and its erro
 
 Obtain calls through [call transcript](../../references/call-transcript.md): Fireflies first when the member uses it. A recap proves held, never its absence a no-show. Requested meetings remain requested; preserve sessions and reschedules. Reuse `jobs/<id>/call-review.md`; invoke [/call-review <id>](call-review.md) only for an unreviewed session. Preserve verified session identity, language and completeness; a summary or excerpt cannot support a whole-call review.
 
-Check one registered tracking link with `?check=1`, its redirect and `X-Tracking-Status: check: not logged`, then run:
+Then run:
 
 ```bash
-python3 code/clicks.py
 python3 code/analytics.py compute --catch-up
 python3 code/analytics.py compute
 ```

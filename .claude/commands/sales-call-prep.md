@@ -48,8 +48,8 @@ what the summary drops: screening questions, `client_work_history` (what they hi
 what they paid, the feedback they gave), `clientCompanyPublic` (city, timezone) and
 `activityStat.jobActivity` (who else is interviewing).
 
-Read what the member already sent for this job as well: `jobs/<id>/application.md`, the
-pitch page and their own messages, with every price, date and promise in them.
+Read what the member already sent for this job as well: `jobs/<id>/application.md` and
+their own messages, with every price, date and promise in them.
 
 The contact is the client's `name` on their messages. The website comes from the argument,
 else from a link or business name in the thread; otherwise ask for it once as plain text,
